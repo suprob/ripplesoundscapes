@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,7 +10,17 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
+    <div className="welcome">
+      <StaticImage
+        src="../images/rss-logo.png"
+        width={400}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="Ripple Soundscapes"
+        style={{ marginBottom: `1.45rem`, filter: `brightness(1.25)` }}
+      />
+    </div>
+    {/* <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -27,7 +38,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
+    </div> */}
   </header>
 )
 

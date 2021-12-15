@@ -1,0 +1,117 @@
+body {
+  /* background-color: #302631; */
+  background: linear-gradient(45deg, #352a2f, #302631);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.welcome {
+  background: url("../images/ripple-background.jpg") 50% 80% / cover no-repeat;
+  text-align: center;
+  padding: 2.5em;
+  /* backdrop-filter: blur(3px); */
+  /* box-shadow: 6px 7px 16px rgba(23, 17, 35, 0.5); */
+  /* max-width: 26em; */
+  /* margin: auto; */
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-left: 1px solid rgba(255, 255, 255, 0.3); */
+  /* background: rgba(23, 17, 35, 0.75); */
+  position: relative;
+}
+
+.welcome::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(23, 17, 35, 0.25);
+}
+
+.gatsby-image-wrapper {
+  position: relative;
+  z-index: 1;
+}
+/* .gatsby-image-wrapper::before {
+  content: "";
+  height: 35em;
+  width: 35em;
+  border-radius: 50%;
+  position: absolute;
+  left: -7em;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: radial-gradient(rgb(23, 17, 35), transparent);
+} */
+/* .welcome::after {
+  content: "";
+  height: 25em;
+  width: 25em;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: 0em;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+  filter: blur(6px);
+  backdrop-filter: blur(6px);
+} */
+
+a {
+  color: #f46036;
+}
+
+.button {
+  display: inline-block;
+  background-color: #936655;
+  padding: 0.5em 1.125em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2em;
+  border: 2px solid #936655;
+  transition: 0.15s;
+}
+
+.button:hover,
+.button:focus {
+  background: transparent;
+}
+
+main {
+  max-width: 50em;
+  width: 90%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.sound-mix-list {
+  max-width: 20em;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.5em;
+}
+
+.sound-mix-list li {
+  /* margin: 0; */
+}
+
+.sound-mix-list p {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0;
+  padding: 0.25em 1em;
+  border-radius: 1em;
+}
