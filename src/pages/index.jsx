@@ -1,9 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const IndexPage = () => (
   <Layout>
@@ -11,12 +10,11 @@ const IndexPage = () => (
 
     <p>Custom mixed ambience for mindfulness and relaxation.</p>
 
-    <a
-      className="button"
-      href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw"
-    >
-      Explore our YouTube channel
-    </a>
+    <div className="link-wrap-as-button">
+      <OutboundLink href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw">
+        Explore our YouTube channel
+      </OutboundLink>
+    </div>
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}

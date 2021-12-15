@@ -72,7 +72,8 @@ a {
   color: #f46036;
 }
 
-.button {
+.button,
+.link-wrap-as-button a {
   display: inline-block;
   background-color: #936655;
   padding: 0.5em 1.125em;
@@ -84,7 +85,9 @@ a {
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.link-wrap-as-button a:hover,
+.link-wrap-as-button a:focus {
   background: transparent;
 }
 
