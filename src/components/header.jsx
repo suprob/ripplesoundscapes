@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
     <div className="welcome">
       <StaticImage
         src="../images/rss-logo.png"
-        width={400}
+        width={300}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="Ripple Soundscapes"
