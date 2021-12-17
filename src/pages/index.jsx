@@ -11,7 +11,12 @@ const IndexPage = () => (
     <p>Custom mixed ambience for mindfulness and relaxation.</p>
 
     <div className="link-wrap-as-button">
-      <OutboundLink href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw">
+      <OutboundLink
+        href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw"
+        style={{
+          marginBottom: `2rem`,
+        }}
+      >
         Explore our YouTube channel
       </OutboundLink>
     </div>
