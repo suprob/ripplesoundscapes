@@ -7,6 +7,7 @@ body {
 
 header {
   background: url("../images/ripple-background.jpg") 50% 80% / cover no-repeat;
+  position: relative;
 }
 
 header::after {
