@@ -17,6 +17,7 @@ const Header = ({ siteTitle }) => (
         alt="Ripple Soundscapes"
         style={{ marginBottom: `1.45rem`, filter: `brightness(1.25)` }}
       />
+      <p>Custom mixed ambience for mindfulness and relaxation.</p>
     </div>
     {/* <div
       style={{

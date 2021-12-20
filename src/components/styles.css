@@ -24,6 +24,10 @@ body {
   position: relative;
 }
 
+.welcome p {
+  z-index: 1;
+}
+
 .welcome::after {
   content: "";
   height: 100%;
@@ -31,7 +35,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(23, 17, 35, 0.25);
+  background: rgba(23, 17, 35, 0.5);
 }
 
 .gatsby-image-wrapper {
@@ -95,7 +99,6 @@ main {
   max-width: 50em;
   width: 90%;
   margin: 1em auto;
-  text-align: center;
 }
 
 .sound-mix-list {

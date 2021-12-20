@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Ripple Soundscapes`,
     description: `Custom mixed ambience for mindfulness and relaxation.`,
-    author: `@ripplesoundscapes`,
+    author: `Ripple Soundscapes`,
     siteUrl: `https://ripplesoundscapes.com`,
   },
   plugins: [

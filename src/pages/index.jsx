@@ -7,8 +7,28 @@ import { OutboundLink } from "gatsby-plugin-google-gtag"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-
-    <p>Custom mixed ambience for mindfulness and relaxation.</p>
+    {/* <p>Custom mixed ambience for mindfulness and relaxation.</p> */}
+    <p>
+      Ripple Soundscapes is a YouTube channel where I share mixes of various
+      nature sounds and music to create soundscapes for sleep, relaxation,
+      mindfulness and focus. I’m just getting started and would love for you to
+      check it out.
+    </p>
+    <p>
+      I currently work as a web developer and as someone that sits huddled
+      around the computer all day, nature has always been my escape. Some of my
+      most peaceful moments have been spent out on the trail. Nothing really
+      compares to the ambience you get in the middle of nature, all you need to
+      do is stop for a second and listen. This is the type of experience I am
+      trying to share with others. Some of my first mixes were created years ago
+      and I finally decided to start sharing them. I hope that I can help people
+      find their escape in this busy world also.
+    </p>
+    <p>
+      Eventually, my end goal for the channel is to do on location recording
+      from all over. I think it's an ambitious goal but with your support, maybe
+      I'll get there one day. Thank you!
+    </p>
 
     <div className="link-wrap-as-button">
       <OutboundLink
@@ -17,7 +37,7 @@ const IndexPage = () => (
           marginBottom: `2rem`,
         }}
       >
-        Explore our YouTube channel
+        Explore the YouTube channel
       </OutboundLink>
     </div>
     {/* <StaticImage
