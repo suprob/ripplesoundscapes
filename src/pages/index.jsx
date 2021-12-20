@@ -2,17 +2,17 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
+// import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     {/* <p>Custom mixed ambience for mindfulness and relaxation.</p> */}
     <p>
-      Ripple Soundscapes is a YouTube channel where I share mixes of various
-      nature sounds and music to create soundscapes for sleep, relaxation,
-      mindfulness and focus. I’m just getting started and would love for you to
-      check it out.
+      <strong>Ripple Soundscapes</strong> is a YouTube channel where I share
+      mixes of various nature sounds and music to create soundscapes for sleep,
+      relaxation, mindfulness and focus. I’m just getting started and would love
+      for you to check it out.
     </p>
     <p>
       I currently work as a web developer and as someone that sits huddled
@@ -30,16 +30,6 @@ const IndexPage = () => (
       I'll get there one day. Thank you!
     </p>
 
-    <div className="link-wrap-as-button">
-      <OutboundLink
-        href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw"
-        style={{
-          marginBottom: `2rem`,
-        }}
-      >
-        Explore the YouTube channel
-      </OutboundLink>
-    </div>
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}

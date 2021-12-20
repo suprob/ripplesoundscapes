@@ -5,12 +5,21 @@ body {
   min-height: 100vh;
 }
 
-.page-header {
-  text-align: center;
+header {
+  background: url("../images/ripple-background.jpg") 50% 80% / cover no-repeat;
+}
+
+header::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(23, 17, 35, 0.5);
 }
 
 .welcome {
-  background: url("../images/ripple-background.jpg") 50% 80% / cover no-repeat;
   text-align: center;
   padding: 2.5em;
   /* backdrop-filter: blur(3px); */
@@ -22,20 +31,7 @@ body {
   /* border-left: 1px solid rgba(255, 255, 255, 0.3); */
   /* background: rgba(23, 17, 35, 0.75); */
   position: relative;
-}
-
-.welcome p {
   z-index: 1;
-}
-
-.welcome::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: rgba(23, 17, 35, 0.5);
 }
 
 .gatsby-image-wrapper {
@@ -120,4 +116,9 @@ main {
   margin: 0;
   padding: 0.25em 1em;
   border-radius: 1em;
+}
+
+footer {
+  padding: 0.5em 0;
+  text-align: center;
 }

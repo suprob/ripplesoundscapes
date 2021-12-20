@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { StaticImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -18,6 +19,11 @@ const Header = ({ siteTitle }) => (
         style={{ marginBottom: `1.45rem`, filter: `brightness(1.25)` }}
       />
       <p>Custom mixed ambience for mindfulness and relaxation.</p>
+      <div className="link-wrap-as-button">
+        <OutboundLink href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw">
+          Explore the YouTube channel
+        </OutboundLink>
+      </div>
     </div>
     {/* <div
       style={{
