@@ -5,12 +5,12 @@ body {
   min-height: 100vh;
 }
 
-header {
+.page-header {
   background: url("../images/ripple-background.jpg") 50% 80% / cover no-repeat;
   position: relative;
 }
 
-header::after {
+.page-header::after {
   content: "";
   height: 100%;
   width: 100%;
@@ -92,10 +92,14 @@ a {
   background: transparent;
 }
 
-main {
+.page-main {
   max-width: 50em;
   width: 90%;
-  margin: 1em auto;
+  margin: auto;
+  padding: 3%;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5em;
+  margin-top: 1em;
 }
 
 .sound-mix-list {

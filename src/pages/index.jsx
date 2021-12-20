@@ -19,7 +19,7 @@ const IndexPage = () => (
       around the computer all day, nature has always been my escape. Some of my
       most peaceful moments have been spent out on the trail. Nothing really
       compares to the ambience you get in the middle of nature, all you need to
-      do is stop for a second and listen. This is the type of experience I am
+      do is stop for a moment and listen. This is the type of experience I am
       trying to share with others. Some of my first mixes were created years ago
       and I finally decided to start sharing them. I hope that I can help people
       find their escape in this busy world also.

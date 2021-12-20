@@ -4,11 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="page-header">
     <div className="welcome">
       <StaticImage
         src="../images/rss-logo.png"
