@@ -14,7 +14,10 @@ const Header = ({ siteTitle }) => (
         alt="Ripple Soundscapes"
         style={{ marginBottom: `1.45rem`, filter: `brightness(1.25)` }}
       />
-      <p>Custom mixed ambience for mindfulness and relaxation.</p>
+      <h1 className="sr-only">Ripple Soundscapes</h1>
+      <p style={{ fontSize: "1.125em" }}>
+        Custom mixed ambience for mindfulness and relaxation.
+      </p>
       <div className="link-wrap-as-button">
         <OutboundLink href="https://www.youtube.com/channel/UCfD9H7cYQwoltrxZhtnHhJw">
           Explore the YouTube channel
